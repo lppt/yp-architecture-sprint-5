@@ -1,0 +1,109 @@
+version: "3.1"
+stories:
+  - story: Приветствие и запрос помощи
+    steps:
+      - intent: приветствие
+      - action: utter_greet
+      - intent: запрос_помощи
+      - action: utter_help
+
+  # - story: Информация о проекте
+  #   steps:
+  #     - intent: описание_архитектуры
+  #     - action: action_project_info
+
+  - story: Выбор технологии для проекта
+    steps:
+      - intent: выбор_технологий
+      - action: utter_choose_tech_stack
+
+  - story: Микросервисная архитектура
+    steps:
+      - intent: микросервисы
+      - action: utter_microservice_info
+
+  - story: Монолитная архитектура
+    steps:
+      - intent: монолит
+      - action: utter_monolith
+
+  - story: Интеграция систем
+    steps:
+      - intent: интеграция_систем
+      - action: utter_integration
+
+  - story: Безопасность системы
+    steps:
+      - intent: безопасность
+      - action: utter_security
+
+  - story: Оптимизация производительности
+    steps:
+      - intent: производительность
+      - action: utter_help
+
+  - story: Масштабируемость системы
+    steps:
+      - intent: масштабируемость
+      - action: utter_scalability
+
+  - story: Обеспечение отказоустойчивости
+    steps:
+      - intent: отказоустойчивость
+      - action: utter_fault_tolerance
+
+  - story: DevOps настройка
+    steps:
+      - intent: DevOps
+      - action: utter_devops
+
+  - story: Контейнеризация проекта
+    steps:
+      - intent: контейнеризация
+      - action: utter_containerization
+
+  - story: Выбор базы данных
+    steps:
+      - intent: выбор_базы_данных
+      - action: utter_database_choice
+
+  - story: Документация архитектуры
+    steps:
+      - intent: документация
+      - action: utter_help
+
+  - story: Мониторинг микросервисов
+    steps:
+      - intent: мониторинг_микросервисов
+      - action: utter_monitoring_info
+
+  - story: Оркестрация микросервисов
+    steps:
+      - intent: оркестрация_микросервисов
+      - action: utter_help
+
+  - story: Тестирование микросервисов
+    steps:
+      - intent: тестирование_микросервисов
+      - action: utter_testing_info
+
+  - story: Сервисная сеть
+    steps:
+      - intent: сервисная_сеть
+      - action: utter_help
+
+  - story: Безопасность микросервисов
+    steps:
+      - intent: безопасность_микросервисов
+      - action: utter_security
+
+  - story: Масштабируемость микросервисов
+    steps:
+      - intent: масштабируемость
+      - action: utter_scalability
+
+  - story: Отказоустойчивость микросервисов
+    steps:
+      - intent: отказоустойчивость_микросервисов
+      - action: utter_fault_tolerance
+

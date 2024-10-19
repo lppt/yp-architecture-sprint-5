@@ -1,3 +1,7 @@
+cache
+rasa_env
+.rasa
+__pycache__
 # dependencies
 
 /.pnp
